@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 // Write a program which takes two values x and y. Prints x for y number of times.
  
-class Main{
+class WeekOne{
     public static void main(String[] args){
         
         Scanner scan = new Scanner(System.in);
