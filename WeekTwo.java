@@ -1,5 +1,4 @@
-//  Write a Program which takes input n and prints the below pattern  
-import java.util.Scanner;
+ import java.util.Scanner;
 class WeekTwo{
  public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
@@ -8,9 +7,86 @@ class WeekTwo{
             for(int j=1;j<=n-i+1;j++){
                 System.out.print("*");
             }
-                System.out.println(" ");
-
+            System.out.println(" ");
         }
     }
 }
 
+/*
+Input: 5
+Output:
+***** 
+**** 
+*** 
+** 
+* 
+*/
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+         int n = scan.nextInt();
+        for(int i =1;i<=n;i++){
+            for(int j =n ;j>=i;j--){
+               System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+
+/*
+Input: 5
+Output:
+54321
+5432
+543
+54
+5
+*/
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+         int n = scan.nextInt();
+        for(int i =1;i<=n;i++){
+            for(int j =1 ;j<=i;j++){
+               System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+/*
+Input: 5
+Output:
+*
+**
+***
+****
+*****
+*/
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+         int n = scan.nextInt();
+        for(int i =1;i<=n;i++){
+            for(int j =1 ;j<=i;j++){
+               System.out.print(i);
+            }
+            System.out.println();
+        }
+    }
+}
+
+/*
+Input: 5
+Output:
+1
+22
+333
+4444
+55555
+*/
